@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indonesia Emas 2045</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: #fff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            background: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ddd;
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid red;
+            margin-bottom: 20px;
+        }
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: url('pesawatangkasa.jpg') no-repeat center center;
+            background-size: cover;
+            padding: 10px 20px;
+            width: 100%;
+            position: relative;
+        }
+        .navbar::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Bayangan */
+            z-index: 1;
+        }
+        .navbar .logo, .nav-tabs {
+            position: relative;
+            z-index: 2;
+        }
+        .navbar .logo {
+            font-size: 1.5em;
+            color: white;
+        }
+        .nav-tabs {
+            display: flex;
+            gap: 15px;
+        }
+        .nav-tabs a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border: 2px solid transparent;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+        .nav-tabs a:hover {
+            background-color: #ff0000; /* Background merah */
+            border: 2px solid #ff0000;
+            color: white;
+        }
+        .nav-tabs .nav-btn {
+            background-color: #ff0000; /* Background merah */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+        .nav-tabs .nav-btn:hover {
+            background-color: #cc0000; /* Background merah lebih gelap saat hover */
+            border: 2px solid #cc0000;
+        }
+
+        /* Konten */
+        h1 {
+            color: red;
+        }
+        header {
+            color:red;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+            background: white;
+        }
+        .content h2 {
+            color: #ff0000;
+            margin-bottom: 10px;
+        }
+        .content p {
+            text-indent: 2em;
+        }
+        .content ul {
+            padding-left: 2em;
+        }
+        .content ul li {
+            margin-bottom: 5px;
+        }
+        /* Footer */
+        footer {
+            background: url('pesawatangkasa.jpg') no-repeat center center;
+            background-size: cover;
+            position: relative;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            width: 100%;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+        footer .credits {
+            font-size: 0.9em;
+            color: #cccccc;
+        }
+        footer .to-top {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            position: relative;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        footer .to-top:hover {
+            background-color: #cc0000; /* Background merah lebih gelap saat hover */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+<div class="navbar">
+        <div class="nav-tabs">
+            <a href="#">Space Ship</a>
+            <a href="#">Perpustakaan</a>
+            <a href="#">Dapur</a>
+            <button class="nav-btn">Daftar</button>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <h1>Indonesia Emas 2045</h1>
+        <p>apakah Legenda atau Nyata?</p>
+    </header>
+
+    <!-- Konten -->
+    <div class="container">
+        <div class="content">
+            <h2>Pendahuluan</h2>
+            <p>Indonesia Emas 2045 adalah visi strategis yang bertujuan membawa bangsa ini menjadi negara maju pada usia 100 tahun kemerdekaannya. Namun, pencapaian visi ini tampak sulit diraih karena berbagai permasalahan utama yang menghambat.</p>
+            
+            <h2>Hambatan Internal</h2>
+            <ul>
+                <li><strong>Ketidakstabilan politik</strong><br>Ketidakharmonisan antar-pemangku kepentingan politik menyebabkan sulitnya pengambilan keputusan yang tepat dan efektif.</li>
+                <li><strong>Kesenjangan sosial-ekonomi</strong><br>Perbedaan akses terhadap pendidikan, kesehatan, dan peluang ekonomi menciptakan jurang yang semakin dalam antara lapisan masyarakat.</li>
+                <li><strong>Kelemahan sistem hukum</strong><br>Penegakan hukum yang tidak konsisten dan cenderung diskriminatif melemahkan kepercayaan rakyat terhadap pemerintah.</li>
+            </ul>
+
+            <h2>Hambatan Eksternal</h2>
+            <ul>
+                <li><strong>Dominasi negara lain</strong><br>Ketergantungan terhadap investasi asing dan pengaruh global sering kali merugikan kepentingan nasional.</li>
+                <li><strong>Penegakan hukum yang tidak konsisten</strong><br>Lemahnya pengawasan terhadap pelaku kejahatan, baik dari dalam maupun luar negeri, memperburuk situasi hukum.</li>
+                <li><strong>Aktivitas ilegal pihak tertentu</strong><br>Banyaknya tindakan ilegal seperti korupsi, pencucian uang, dan eksploitasi sumber daya alam secara sembarangan semakin membebani Indonesia.</li>
+            </ul>
+
+            <h2>Akar Permasalahan</h2>
+            <p>Permasalahan utama di Indonesia berakar pada pemerintah. Jika pemerintah dapat dibenahi dan menjadi bersih, maka rakyat pun akan mengikuti. Sayangnya, banyak praktik kotor yang dilakukan oleh oknum pemerintah, sehingga memberikan contoh buruk yang diikuti oleh rakyat.</p>
+
+            <h2>Dampak Era Digital</h2>
+            <p>Di era digital saat ini, informasi sering kali disalahgunakan, menimbulkan ancaman baru seperti hoaks, cybercrime, dan penyalahgunaan data. Banyak kebijakan pemerintah di sektor digital yang salah sasaran dan justru merugikan rakyat.</p>
+
+            <h2>Kepercayaan Rakyat yang Menurun</h2>
+            <p>Kepercayaan rakyat terhadap pemerintah terus menurun akibat lemahnya penegakan hukum dan maraknya korupsi. Pemerintah seharusnya meluncurkan proyek-proyek yang berfokus pada:</p>
+            <ul>
+                <li>Penegakan hukum yang adil dan konsisten</li>
+                <li>Membangun kembali kepercayaan rakyat</li>
+                <li>Mengelola anggaran secara transparan untuk kesejahteraan rakyat</li>
+            </ul>
+            <p>Jika dana pemerintah terus disalahgunakan untuk kepentingan pribadi atau kelompok, rakyat akan kehilangan kepercayaan dan menjadi marah.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 North Foundation</p>
+        <p class="credits">Credits: ION, Robert, and Jeff</p>
+        <a href="#" class="to-top">Ke Atas</a>
+    </footer>
+</body>
+</html>
